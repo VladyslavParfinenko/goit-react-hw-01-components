@@ -1,0 +1,9 @@
+.card{
+    width: 275px;
+    height: 370px;
+    background-color:#fffffe;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
