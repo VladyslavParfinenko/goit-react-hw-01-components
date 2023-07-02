@@ -1,0 +1,36 @@
+.item{
+   
+background-color:aquamarine;
+padding: 20px;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.statusOn{
+display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+ 
+background-color:green;
+}
+.statusOff{
+    
+    display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  background-color:red;
+
+}
+.avatar{
+
+}
+.name{
+    
+}
