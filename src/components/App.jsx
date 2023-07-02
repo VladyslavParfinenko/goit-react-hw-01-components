@@ -5,6 +5,8 @@ import { Statistic } from "./Statistics/Statistics";
 import data from '../data.json';
 import { FriendList } from "./FriendList/FriendList";
 import friends from '../friends.json';
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
+import transactions from '../transactions.json'
 
 
 
@@ -18,6 +20,8 @@ export const App = () => {
     <Statistic stats={data} title={'Upload stats'}/>
     <HWTitle text="Список друзей"/>
     <FriendList friends={friends}/>
+    <HWTitle text="История транзакций"/>
+    <TransactionHistory items={transactions}/>
 
     </>
   );

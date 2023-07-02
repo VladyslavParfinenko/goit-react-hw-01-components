@@ -1,0 +1,12 @@
+.transactionHistory{
+background-color: rgb(222, 231, 228);
+width: 500px;
+text-align: center;
+}
+.tableHead{
+    background-color:rgb(103, 103, 128);
+    
+}
+.tableName{
+    padding: 10px;
+}
